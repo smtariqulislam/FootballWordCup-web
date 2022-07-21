@@ -242,6 +242,10 @@ footer h2 {
 
     .top-font p {
         font-size: 18px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
     }
 
     .continer {
@@ -250,11 +254,13 @@ footer h2 {
         width: 55%;
         margin-left: 100px;
         margin-top: 0px;
+
     }
 
     .manu {
 
         background-color: white;
+        margin-bottom: 100px;
     }
 
     .manu-bar {
@@ -311,6 +317,7 @@ footer h2 {
         padding-top: 10px;
 
     }
+
 
     .top-images img {
         width: 140%;
