@@ -361,11 +361,14 @@ footer h2 {
     .view-all {
         display: flex;
         justify-content: center;
+       align-items: center;
+       color: #41404cfe;
         margin-top: 20px;
         margin-left: 400px;
         width: 100px;
-        height: 30px;
+        height: 40px;
         background-color: aqua;
+        border-radius: 15px;
     }
 
 
